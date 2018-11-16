@@ -1,0 +1,924 @@
+@media (min-width: 850px) {
+    .footer {
+      position: fixed;
+      bottom: 0px;
+  }
+    body {
+    	background: url("../img/bg.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+    }
+
+    header {
+        position: fixed;
+        background: hsla(0,0%,7%,.8);
+        z-index: 999;
+        width: 100%;
+        height: 60px;
+        top: 0;
+        padding: 0 26px 0 6px;
+        margin-left: -10px;
+    }
+
+    .title {
+        color: black;
+        float: left;
+        padding-left: 20px;
+        margin: auto;
+        line-height: 60px;
+        vertical-align: middle;
+    }
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        float: left;
+        padding-left: 20px;
+        margin: auto;
+        line-height: 60px;
+        vertical-align: middle;
+    }
+
+    li {
+        float: left;
+    }
+
+    .active {
+        color: rgb(33, 175, 173);
+    }
+    li a {
+        display: block;
+        color:black;
+        padding: 0px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .loginBox {
+        float: right;
+        padding-right: 20px;
+        margin: auto;
+        line-height: 60px;
+        vertical-align: middle;
+    }
+
+    button.registerButton {
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+
+    button.loginButton {
+        color: black;
+        background: transparent;
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .Button, a.Button {
+        display: inline-block;
+        padding: 11px 18px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+       black-space: nowrap;
+        vertical-align: middle;
+        border: none;
+        border-radius: 4px;
+        line-height: 1.4;
+        text-shadow: none;
+        color: black;
+        outline: none;
+    }
+
+    .loginModal {
+        height: 245px;
+        width: 500px;
+        background: hsla(0,0%,7%,.8);
+        border: 3px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 50%;
+        margin-left: -250px;
+    }
+    .recoveryModal {
+        height: 135px;
+        width: 500px;
+        background: hsla(0,0%,7%,.8);
+        border: 3px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 50%;
+        margin-left: -250px;
+    }
+
+    .registerModal {
+        height: 300px;
+        width: 500px;
+        background: hsla(0,0%,7%,.8);
+        border: 3px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 50%;
+        margin-left: -250px;
+    }
+
+    .registerForm {
+        text-align: center;
+        padding: 10px;
+        padding-top: 15px;
+    }
+
+    .loginForm {
+        text-align: center;
+        padding: 10px;
+        padding-top: 15px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        width: 75%;
+        min-width: 222px;
+        height: 30px;
+        padding-left: 10px;
+        color: #000;
+        border: 0;
+        font-size: 15px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .authButton {
+        width: 75%;
+        min-width: 222px;
+        height: 30px;
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .commentButton {
+        height: 30px;
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 10px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .authLabel {
+        color: black;
+    }
+
+    .redirect {
+        color: black;
+    }
+
+    .red {
+        color: rgb(33, 175, 173);
+        text-decoration: none;
+    }
+
+    .cameraModal {
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        left: 30%;
+        margin-top: -125px;
+        margin-left: -250px;
+    }
+
+    .cameraButton {
+        margin-right: auto;
+        position: absolute;
+        top: 606px;
+        left: 30%;
+        width: 506px;
+        margin-top: -125px;
+        margin-left: -250px;
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .buttonDelete {
+        margin-right: auto;
+        position: absolute;
+        top: 606px;
+        left: 30%;
+        width: 253px;
+        margin-top: -125px;
+        margin-left: -250px;
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .buttonSave {
+        margin-right: auto;
+        position: absolute;
+        top: 606px;
+        left: 30%;
+        width: 253px;
+        margin-top: -125px;
+        margin-left: 3px;
+        background: rgb(50, 200, 500);
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .camera {
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 225;
+        left: 30%;
+        margin-top: -125px;
+        margin-left: -250px;
+    }
+
+    .commentDisplay {
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        left: 30%;
+        margin-top: -125px;
+        margin-left: -250px;
+    }
+
+    .floating-box {
+        display: inline-block;
+        width: 250px;
+        height: 185px;
+        border: 3px solid rgb(33, 175, 173);
+    }
+
+    .front-floating-box {
+        display: inline-block;
+        width: 500px;
+        border: 3px solid rgb(33, 175, 173);
+        border-radius: 4px;
+        margin: 2px;
+    }
+
+    .input-floating-box {
+        display: inline-block;
+        width: 500px;
+        height: 392px;
+        border: 3px solid rgb(33, 175, 173);
+        border-radius: 4px;
+        margin: 2px;
+    }
+
+    .after-box {
+        clear: left;
+        border: 3px solid transparent;
+    }
+
+    .camForm {
+        text-align: center;
+        width: 500px;
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        left: 30%;
+        margin-top: -125px;
+        margin-left: -250px;
+    }
+
+    .gallery {
+        top: 225;
+        right: 30%;
+        margin-top: -125px;
+        margin-right: -250px;
+        position: absolute;
+        height: 1135px;
+        overflow-y:scroll;
+        border:3px solid rgb(33, 175, 173);
+        border-radius: 4px;
+    }
+
+    .commentsDiv {
+        top: 225;
+        right: 30%;
+        margin-top: -125px;
+        margin-right: -250px;
+        position: absolute;
+        height: 350px;
+        overflow-y:scroll;
+        border:3px solid rgb(33, 175, 173);
+        border-radius: 4px;
+    }
+
+    a {
+        color:black;
+        text-decoration: none;
+    }
+
+    .frontGallery {
+        top: 300;
+        margin-top: -125px;
+        position: absolute;
+    }
+
+    .GalleryName {
+        text-align: center;
+        width: 271px;
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        right: 30%;
+        margin-top: -125px;
+        margin-right: -250px;
+        font-size: 18;
+    }
+
+    .commentsTitle {
+        text-align: center;
+        width: 471px;
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        right: 30%;
+        margin-top: -125px;
+        margin-right: -250px;
+        font-size: 18;
+    }
+
+    .centered {
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        left: 50%;
+        margin-top: -125px;
+        margin-left: -250px;
+    }
+
+    .author {
+        font-size: 14;
+        margin-top: 1px;
+        margin-right: 1px;
+        text-align: center;
+    }
+
+    .likes {
+        font-size: 14;
+        margin-top: -25px;
+        margin-right: 1px;
+        float: right;
+    }
+
+    .comments {
+        font-size: 14;
+        margin-top: 1px;
+        margin-left: 1px;
+        position: absolute;
+    }
+
+    .aComment {
+        margin-top: -15px;
+        margin-left: 2px;
+        font-size: 15px;
+        max-width: 356px;
+    }
+
+    .previous {
+        margin-top: 100px;
+    }
+
+    .black {
+        color: black;
+    }
+}
+@media (max-width: 849px) {
+    body {
+        background: url("../img/bg.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+    }
+
+    header {
+        position: fixed;
+        background: hsla(0,0%,7%,.8);
+        z-index: 999;
+        width: 100%;
+        height: 60px;
+        top: 0;
+        padding: 0 26px 0 6px;
+        margin-left: -10px;
+    }
+
+    .title {
+        color:black;
+        float: left;
+        padding-left: 20px;
+        margin: auto;
+        line-height: 60px;
+        vertical-align: middle;
+    }
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        float: left;
+        padding-left: 20px;
+        margin: auto;
+        line-height: 60px;
+        vertical-align: middle;
+    }
+
+    li {
+        float: left;
+    }
+
+    .active {
+        color: rgb(33, 175, 173);
+    }
+    li a {
+        display: block;
+        color:black;
+        padding: 0px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .loginBox {
+        float: right;
+        padding-right: 20px;
+        margin: auto;
+        line-height: 60px;
+        vertical-align: middle;
+    }
+
+    button.registerButton {
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+
+    button.loginButton {
+        color: black;
+        background: transparent;
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .Button, a.Button {
+        display: inline-block;
+        padding: 11px 18px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+       black-space: nowrap;
+        vertical-align: middle;
+        border: none;
+        border-radius: 4px;
+        line-height: 1.4;
+        text-shadow: none;
+        color: black;
+        outline: none;
+    }
+
+    .loginModal {
+        height: 245px;
+        width: 350px;
+        background: hsla(0,0%,7%,.8);
+        border: 3px;
+        margin-top: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+    }
+    .recoveryModal {
+        height: 135px;
+        width: 375px;
+        background: hsla(0,0%,7%,.8);
+        border: 3px;
+        margin-top: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+    }
+
+    .registerModal {
+        height: 300px;
+        width: 350px;
+        background: hsla(0,0%,7%,.8);
+        border: 3px;
+        margin-top: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 50%;
+        margin-left: -175px;
+    }
+
+    .registerForm {
+        text-align: center;
+        padding: 10px;
+        padding-top: 15px;
+    }
+
+    .loginForm {
+        text-align: center;
+        padding: 10px;
+        padding-top: 15px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        width: 75%;
+        min-width: 222px;
+        height: 30px;
+        padding-left: 10px;
+        color: #000;
+        border: 0;
+        font-size: 15px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .authButton {
+        width: 75%;
+        min-width: 222px;
+        height: 30px;
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .commentButton {
+        height: 30px;
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 10px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .authLabel {
+        color:black;
+    }
+
+    .redirect {
+        color: black;
+    }
+
+    .red {
+        color: rgb(33, 175, 173);
+        text-decoration: none;
+    }
+
+    .cameraModal {
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 260;
+        left: 30%;
+        margin-top: -125px;
+        margin-left: -250px;
+    }
+
+    .cameraButton {
+        margin-right: auto;
+        position: absolute;
+        top: 606px;
+        /*left: 30%;*/
+        width: 506px;
+        margin-top: -125px;
+        /*margin-left: -250px;*/
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .buttonDelete {
+        margin-right: auto;
+        position: absolute;
+        top: 606px;
+        /*left: 30%;*/
+        width: 253px;
+        margin-top: -125px;
+        /*margin-left: -250px;*/
+        color: black;
+        background: rgb(33, 175, 173);
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .buttonSave {
+        margin-right: auto;
+        position: absolute;
+        top: 606px;
+        left: 258px;
+        width: 253px;
+        margin-top: -125px;
+        margin-left: 3px;
+        background: black;
+        padding: 4px 20px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: 400;
+        vertical-align: initial;
+        outline: none;
+    }
+
+    .camera {
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 225;
+        /*left: 30%;*/
+        margin-top: -125px;
+        /*margin-left: -250px;*/
+    }
+
+    .commentDisplay {
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        left: 30%;
+        margin-top: -125px;
+        margin-left: -250px;
+    }
+
+    .floating-box {
+        display: inline-block;
+        width: 250px;
+        height: 185px;
+        border: 3px solid rgb(33, 175, 173);
+    }
+
+    .front-floating-box {
+        display: inline-block;
+        width: 500px;
+        border: 3px solid rgb(33, 175, 173);
+        border-radius: 4px;
+        margin: 2px;
+    }
+
+    .input-floating-box {
+        display: inline-block;
+        width: 500px;
+        height: 392px;
+        border: 3px solid rgb(33, 175, 173);
+        border-radius: 4px;
+        margin: 2px;
+    }
+
+    .after-box {
+        clear: left;
+        border: 3px solid transparent;
+    }
+
+    .camForm {
+        text-align: center;
+        width: 500px;
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        /*left: 30%;*/
+        margin-top: -125px;
+        /*margin-left: -250px;*/
+    }
+
+    .gallery {
+        top: 670px;
+        /*right: 30%;*/
+        margin-top: -125px;
+        margin-right: -250px;
+        position: absolute;
+        height: 1135px;
+        overflow-y:scroll;
+        border:3px solid rgb(33, 175, 173);
+        border-radius: 4px;
+    }
+
+    .commentsDiv {
+        top: 225;
+        right: 30%;
+        margin-top: -125px;
+        margin-right: -250px;
+        position: absolute;
+        height: 350px;
+        overflow-y:scroll;
+        border:3px solid rgb(33, 175, 173);
+        border-radius: 4px;
+    }
+
+    a {
+        color:black;
+        text-decoration: none;
+    }
+
+    .frontGallery {
+        top: 300;
+        margin-top: -125px;
+        position: absolute;
+    }
+
+    .GalleryName {
+        text-align: center;
+        width: 271px;
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 645px;
+        /*right: 30%;*/
+        margin-top: -125px;
+        margin-right: -250px;
+        font-size: 18;
+    }
+
+    .commentsTitle {
+        text-align: center;
+        width: 471px;
+        border-radius: 4px;
+        border:3px solid rgb(33, 175, 173);
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        right: 30%;
+        margin-top: -125px;
+        margin-right: -250px;
+        font-size: 18;
+    }
+
+    .centered {
+        margin-right: auto;
+        position: absolute;
+        top: 200;
+        left: 50%;
+        margin-top: -125px;
+        margin-left: -250px;
+    }
+
+    .author {
+        font-size: 14;
+        margin-top: 1px;
+        margin-right: 1px;
+        text-align: center;
+    }
+
+    .likes {
+        font-size: 14;
+        margin-top: -25px;
+        margin-right: 1px;
+        float: right;
+    }
+
+    .comments {
+        font-size: 14;
+        margin-top: 1px;
+        margin-left: 1px;
+        position: absolute;
+    }
+
+    .aComment {
+        margin-top: -15px;
+        margin-left: 2px;
+        font-size: 15px;
+        max-width: 356px;
+    }
+
+    .previous {
+        margin-top: 100px;
+    }
+
+    .black {
+        color: black;
+    }
+}
+@media (max-width: 1225px) {
+    .commentsTitle{top: 600px;
+        margin-right: 0px;
+        right: auto;
+        width: 500px;
+        margin-left: -250px;
+        left: 50%;
+    }
+    .commentsDiv{top: 625px;
+        margin-right: 0px;
+        margin-left: -250px;
+        right: auto;
+        width: 500px;
+        left: 50%;
+    }
+    .commentDisplay {
+        margin-right: 0;
+        margin-left: -250px;
+        left: 50%;
+    }
+
+}
+
+@media (max-width: 620px) {
+    .loginBox {float: left;}
+    header {height: 120px;}
+    .camForm {top: 260px;}
+    .camera {top: 285px;}
+    .cameraButton{top: 666px;}
+    .buttonSave{top: 666px;}
+    .buttonDelete{top: 666px;}
+    .GalleryName{top: 705px;}
+    .gallery{top: 730px;}
+    .centered{top: 260px;}
+    .previous{margin-top: 175px;}
+    .frontGallery{top: 360px;}
+}
+ 
